@@ -117,6 +117,10 @@ User Input → Preprocessing (NLTK) → TF-IDF Vectorization → MLP Neural Netw
 | "I want to switch careers" | career_switch | 91.9% |
 | "How to start freelancing" | freelancing | 95.9% |
 
+## 👤 Author
+
+**Govind** – [GitHub](https://github.com/GovindxDev)
+
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
