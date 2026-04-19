@@ -210,6 +210,7 @@ with st.sidebar:
 
     features = [
         ("💻", "IT & Tech Careers"),
+        ("🚀", "Data Science & AI"),
         ("🏥", "Medical Careers"),
         ("⚙️", "Engineering Paths"),
         ("💼", "Business & Management"),
@@ -231,6 +232,7 @@ with st.sidebar:
     st.markdown("### ⚡ Quick Questions")
     quick_questions = [
         "What careers are in IT?",
+        "How to start in Data Science?",
         "How to write a resume?",
         "Interview preparation tips",
         "I'm confused about my career",
