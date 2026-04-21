@@ -1,1 +1,249 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "What's up", "How are you", "Is anyone there", "Howdy",
+        "Hi there", "Hey there", "Hola", "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to Career Guidance Bot. How can I help you today?",
+        "Hi there! I'm your career advisor. What would you like to know?",
+        "Hey! Ready to explore career options? Ask me anything!",
+        "Greetings! I'm here to help you navigate your career path. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Take care",
+        "See ya", "Catch you later", "I'm leaving", "Quit",
+        "Exit", "Good night", "Thanks bye", "Bye bye"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your career journey!",
+        "See you later! Remember, every step counts toward your dream career!",
+        "Take care! Feel free to come back anytime for career advice!",
+        "Bye! Wishing you all the success in your career path!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Thank you so much", "Appreciate it", "Thanks for the help",
+        "Much appreciated", "Grateful for your help"
+      ],
+      "responses": [
+        "You're welcome! Happy to help with your career queries!",
+        "Glad I could help! Don't hesitate to ask more questions!",
+        "My pleasure! Your career growth matters to me!",
+        "Anytime! I'm here whenever you need career guidance!"
+      ]
+    },
+    {
+      "tag": "career_IT",
+      "patterns": [
+        "Tell me about IT careers", "What jobs are in technology",
+        "I want to work in IT", "Software engineering career",
+        "How to become a developer", "Tech career options",
+        "What are the career options in IT", "Information technology jobs",
+        "How to start a career in tech", "What skills do I need for IT",
+        "Best IT career paths", "Future of IT careers",
+        "Programming career", "Computer science careers"
+      ],
+      "responses": [
+        "IT is a booming field! Key career paths include:\n\n🔹 **Software Developer/Engineer** – Build applications & systems (Python, Java, JavaScript)\n🔹 **Data Scientist** – Analyze data & build ML models\n🔹 **Cloud Engineer** – Manage cloud infrastructure (AWS, Azure, GCP)\n🔹 **Cybersecurity Analyst** – Protect systems from threats\n🔹 **DevOps Engineer** – Automate deployment & operations\n🔹 **Full Stack Developer** – Handle both frontend & backend\n\nWould you like details on any specific IT role?",
+        "Great choice! The IT industry offers diverse opportunities:\n\n💻 **Web Development** – Frontend, Backend, Full Stack\n📊 **Data & AI** – Data Science, Machine Learning, AI Engineering\n☁️ **Cloud Computing** – Cloud Architecture, SRE\n🔒 **Cybersecurity** – Ethical Hacking, Security Analysis\n📱 **Mobile Development** – iOS, Android, Cross-platform\n\nStart by learning programming basics (Python is great for beginners), then specialize. What area interests you most?"
+      ]
+    },
+    {
+      "tag": "career_medicine",
+      "patterns": [
+        "Tell me about medical careers", "How to become a doctor",
+        "Medical career options", "Healthcare careers",
+        "I want to work in medicine", "Nursing career",
+        "What are healthcare job options", "Medical field careers",
+        "How to get into medicine", "Best medical careers",
+        "Pharmacy career", "Dentistry career"
+      ],
+      "responses": [
+        "Medicine is a noble and rewarding field! Here are key career paths:\n\n🏥 **Doctor/Physician** – MBBS + specialization (5.5+ years)\n👩‍⚕️ **Nursing** – BSc Nursing or GNM (3-4 years)\n💊 **Pharmacist** – B.Pharm or D.Pharm\n🦷 **Dentist** – BDS (5 years)\n🔬 **Medical Researcher** – Work on drug discovery & clinical trials\n🧠 **Psychologist/Psychiatrist** – Mental health specialist\n\nWould you like details on any specific medical career?",
+        "Healthcare offers many fulfilling career options:\n\n⚕️ **General Physician / Specialist** – Requires MBBS + PG\n🧬 **Biomedical Engineer** – Combine engineering with medicine\n🏥 **Hospital Administrator** – Manage healthcare facilities\n💉 **Physiotherapist** – Help patients recover from injuries\n🔬 **Lab Technician** – Conduct medical tests & research\n\nThe field requires dedication but offers great job security and the satisfaction of helping others!"
+      ]
+    },
+    {
+      "tag": "career_engineering",
+      "patterns": [
+        "Tell me about engineering careers", "What engineering branches are there",
+        "I want to be an engineer", "Best engineering fields",
+        "Engineering career options", "Mechanical engineering career",
+        "Civil engineering career", "Electrical engineering",
+        "How to become an engineer", "Engineering job opportunities",
+        "Which engineering branch is best", "Career in engineering"
+      ],
+      "responses": [
+        "Engineering is a vast field with many specializations:\n\n⚙️ **Mechanical Engineering** – Design machines, automotive, robotics\n💡 **Electrical Engineering** – Power systems, electronics\n🏗️ **Civil Engineering** – Construction, infrastructure, urban planning\n💻 **Computer Science Engineering** – Software, AI, systems\n🧪 **Chemical Engineering** – Pharmaceuticals, materials, energy\n✈️ **Aerospace Engineering** – Aircraft, spacecraft design\n\nEach branch offers unique opportunities. What area excites you the most?",
+        "Engineering careers are diverse and well-paying! Popular branches:\n\n🤖 **Robotics & Automation** – Growing demand in Industry 4.0\n📡 **Electronics & Communication** – Telecom, IoT, embedded systems\n🌍 **Environmental Engineering** – Sustainability & green tech\n🧬 **Biomedical Engineering** – Medical devices & healthcare tech\n📊 **Data Engineering** – Building data pipelines & infrastructure\n\nTip: Choose based on your interests, not just salary trends. Want to know about a specific branch?"
+      ]
+    },
+    {
+      "tag": "career_business",
+      "patterns": [
+        "Tell me about business careers", "How to start a business career",
+        "MBA career options", "Business management careers",
+        "I want to work in business", "Finance career",
+        "Marketing career options", "Entrepreneurship",
+        "How to become a business analyst", "Career in management",
+        "Commerce career options", "Best business careers"
+      ],
+      "responses": [
+        "Business & management careers are exciting and versatile:\n\n📈 **Business Analyst** – Bridge between tech & business needs\n💰 **Financial Analyst** – Investment analysis, portfolio management\n📣 **Marketing Manager** – Brand strategy, digital marketing\n🏢 **Management Consultant** – Help companies improve performance\n👥 **HR Manager** – Talent acquisition, employee development\n🚀 **Entrepreneur** – Start your own venture!\n\nAn MBA can boost your career, but isn't always necessary. What area interests you?",
+        "The business world offers endless possibilities:\n\n💼 **Investment Banking** – High-risk, high-reward finance\n📊 **Data-Driven Marketing** – Use analytics for marketing\n🌐 **International Business** – Global trade & strategy\n📦 **Supply Chain Management** – Logistics & operations\n💡 **Product Management** – Lead product development\n\nKey skills: Leadership, communication, analytical thinking, and adaptability!"
+      ]
+    },
+    {
+      "tag": "career_arts",
+      "patterns": [
+        "Tell me about arts careers", "Creative career options",
+        "I want to work in arts", "Design career",
+        "How to become a designer", "Career in media",
+        "Film making career", "Photography career",
+        "Writing career options", "Journalism career",
+        "Career in creative field", "Arts and humanities careers"
+      ],
+      "responses": [
+        "Creative careers are incredibly fulfilling! Options include:\n\n🎨 **Graphic Designer** – Visual design for brands & media\n✍️ **Content Writer/Copywriter** – Writing for web, marketing, publishing\n🎬 **Film Director/Editor** – Cinema & video production\n📸 **Photographer** – Commercial, portrait, or artistic photography\n🎭 **Animator** – 2D/3D animation for films, games, ads\n📰 **Journalist** – News reporting, investigative journalism\n\nCreativity + skill = amazing career! Which creative field interests you?",
+        "Arts & humanities offer more careers than people realize:\n\n🖌️ **UX/UI Designer** – Design digital experiences (high demand!)\n🎵 **Music Producer** – Create and produce music\n📖 **Author/Novelist** – Write books & stories\n🎪 **Event Manager** – Plan & execute events\n🏛️ **Museum Curator** – Preserve cultural heritage\n🌐 **Social Media Manager** – Build online brand presence\n\nMany creative careers now intersect with tech, opening even more opportunities!"
+      ]
+    },
+    {
+      "tag": "resume_tips",
+      "patterns": [
+        "How to write a resume", "Resume tips", "CV writing tips",
+        "How to make a good resume", "Resume format",
+        "What should I include in my resume", "Help with my resume",
+        "Best resume practices", "How to improve my resume",
+        "Resume building advice", "Professional resume tips",
+        "How to write a CV", "Resume mistakes to avoid"
+      ],
+      "responses": [
+        "Here are top resume tips to land your dream job:\n\n📝 **Key Resume Sections:**\n1. **Contact Info** – Name, phone, email, LinkedIn\n2. **Professional Summary** – 2-3 lines highlighting your value\n3. **Skills** – Technical & soft skills relevant to the job\n4. **Experience** – Use action verbs & quantify achievements\n5. **Education** – Degrees, certifications, relevant coursework\n6. **Projects** – Showcase hands-on work\n\n✅ **Do's:** Tailor for each job, use keywords from the job description, keep it 1-2 pages\n❌ **Don'ts:** No typos, no generic objectives, no irrelevant info\n\nWant me to help with a specific section?"
+      ]
+    },
+    {
+      "tag": "interview_tips",
+      "patterns": [
+        "How to prepare for an interview", "Interview tips",
+        "Job interview advice", "How to crack an interview",
+        "Interview preparation", "Common interview questions",
+        "How to answer interview questions", "Interview techniques",
+        "Help with job interview", "Best interview practices",
+        "How to impress in an interview", "Interview dos and donts"
+      ],
+      "responses": [
+        "Ace your interview with these tips:\n\n🎯 **Before the Interview:**\n• Research the company thoroughly\n• Practice common questions (Tell me about yourself, Why this role?)\n• Prepare STAR method answers (Situation, Task, Action, Result)\n• Dress professionally & arrive early\n\n💬 **During the Interview:**\n• Maintain eye contact & confident body language\n• Listen carefully before answering\n• Ask thoughtful questions about the role & company\n• Show enthusiasm & cultural fit\n\n📌 **Common Questions to Prepare:**\n1. Tell me about yourself\n2. What are your strengths & weaknesses?\n3. Where do you see yourself in 5 years?\n4. Why should we hire you?\n\nWould you like tips for a specific type of interview?"
+      ]
+    },
+    {
+      "tag": "skills_assessment",
+      "patterns": [
+        "What skills should I learn", "How to assess my skills",
+        "Skill development advice", "What skills are in demand",
+        "How to improve my skills", "Top skills for jobs",
+        "Skills for career growth", "Technical skills to learn",
+        "Soft skills for career", "How to upskill myself",
+        "Career skills assessment", "Most important job skills"
+      ],
+      "responses": [
+        "Here are the most in-demand skills for career success:\n\n💻 **Technical Skills (Hard Skills):**\n• Programming (Python, JavaScript, SQL)\n• Data Analysis & Visualization\n• Cloud Computing (AWS, Azure)\n• AI/Machine Learning\n• Digital Marketing & SEO\n\n🤝 **Soft Skills:**\n• Communication & Presentation\n• Problem-Solving & Critical Thinking\n• Leadership & Teamwork\n• Time Management\n• Adaptability & Continuous Learning\n\n📚 **How to Upskill:**\n• Online platforms: Coursera, Udemy, edX\n• Build projects & portfolios\n• Get certifications\n• Network with professionals\n\nWant recommendations based on a specific career path?"
+      ]
+    },
+    {
+      "tag": "career_switch",
+      "patterns": [
+        "How to switch careers", "I want to change my career",
+        "Career transition advice", "Switching career fields",
+        "How to move to a new career", "Career change tips",
+        "Is it too late to change careers", "Mid-career switch",
+        "How to transition to tech", "Changing career path",
+        "Career pivot advice", "Starting over in a new field"
+      ],
+      "responses": [
+        "Career switching is absolutely possible! Here's a roadmap:\n\n🗺️ **Steps to Switch Careers:**\n\n1. **Self-Assessment** – Identify your transferable skills & interests\n2. **Research** – Explore the new field, talk to professionals\n3. **Upskill** – Take courses, earn certifications in the new field\n4. **Build Portfolio** – Create projects to showcase new skills\n5. **Network** – Connect with people in the target industry\n6. **Start Small** – Freelance, volunteer, or take entry-level roles\n7. **Update Branding** – Revamp resume & LinkedIn for the new field\n\n💡 **Remember:**\n• It's NEVER too late to switch careers\n• Many successful people changed careers in their 30s, 40s, or even later\n• Your previous experience is valuable – it gives you a unique perspective\n\nWhat career are you thinking of switching to?"
+      ]
+    },
+    {
+      "tag": "education_guidance",
+      "patterns": [
+        "What should I study", "Best courses to take",
+        "Which degree is best", "Education advice",
+        "Should I do masters", "Is a degree necessary",
+        "Best colleges", "Higher education options",
+        "Online vs offline education", "Certification vs degree",
+        "What to study after 12th", "Best courses after graduation"
+      ],
+      "responses": [
+        "Education choices depend on your career goals! Here's guidance:\n\n🎓 **After 12th Grade:**\n• **Science** → Engineering, Medicine, Pure Sciences, BSc\n• **Commerce** → BBA, B.Com, CA, CS, Economics\n• **Arts** → BA, Law, Journalism, Design, Psychology\n\n📚 **Higher Education Options:**\n• **Master's Degree** – Deepen expertise in your field\n• **MBA** – Broad business skills, leadership roles\n• **Certifications** – Quick, focused skill-building (great ROI)\n• **Online Courses** – Flexible, affordable upskilling\n\n💡 **Tips:**\n• Align education with career goals, not peer pressure\n• Consider ROI – time, cost, and career outcomes\n• Hands-on experience often matters more than degrees\n• Many tech/creative roles value skills over formal education\n\nWhat's your current education level? I can give more specific advice!"
+      ]
+    },
+    {
+      "tag": "salary_info",
+      "patterns": [
+        "What is the average salary", "How much do engineers earn",
+        "Salary expectations", "Highest paying jobs",
+        "What salary can I expect", "Best paying careers",
+        "Salary for freshers", "How to negotiate salary",
+        "Pay scale information", "Average salary in India",
+        "Which jobs pay the most", "Salary comparison"
+      ],
+      "responses": [
+        "Salary varies by role, experience, and location. Here's a general guide:\n\n💰 **High-Paying Career Fields:**\n• **Data Science/AI** – ₹6-30 LPA (fresher to experienced)\n• **Software Engineering** – ₹5-25 LPA\n• **Investment Banking** – ₹8-30 LPA\n• **Medicine (Specialist)** – ₹10-50 LPA\n• **Management Consulting** – ₹8-25 LPA\n• **Product Management** – ₹10-35 LPA\n\n📈 **Salary Negotiation Tips:**\n1. Research market rates (Glassdoor, LinkedIn)\n2. Highlight your unique value & achievements\n3. Consider total compensation (benefits, stocks, bonuses)\n4. Practice negotiation beforehand\n5. Be confident but flexible\n\n⚠️ Note: Salary shouldn't be the ONLY factor – job satisfaction, growth potential, and work-life balance matter too!\n\nWant salary info for a specific role?"
+      ]
+    },
+    {
+      "tag": "freelancing",
+      "patterns": [
+        "How to start freelancing", "Freelancing career",
+        "Is freelancing a good career", "Freelance jobs",
+        "How to find freelance work", "Best freelancing platforms",
+        "Freelancing tips", "Work from home careers",
+        "Remote work options", "How to become a freelancer",
+        "Gig economy careers", "Freelancing vs full time"
+      ],
+      "responses": [
+        "Freelancing offers freedom and flexibility! Here's how to start:\n\n🚀 **Steps to Start Freelancing:**\n1. **Identify Your Skill** – Writing, design, coding, marketing, etc.\n2. **Build a Portfolio** – Showcase your best work\n3. **Choose Platforms** – Upwork, Fiverr, Freelancer, Toptal\n4. **Set Your Rates** – Research market rates, start competitive\n5. **Network** – LinkedIn, Twitter, industry communities\n\n💡 **Popular Freelance Careers:**\n• Web/App Development\n• Graphic Design & UI/UX\n• Content Writing & Copywriting\n• Digital Marketing & SEO\n• Video Editing & Animation\n• Virtual Assistant\n\n⚖️ **Pros vs Cons:**\n✅ Flexibility, independence, unlimited earning potential\n❌ Inconsistent income, self-discipline required, no benefits\n\nWant advice on freelancing in a specific field?"
+      ]
+    },
+    {
+      "tag": "career_confusion",
+      "patterns": [
+        "I don't know what career to choose", "I'm confused about my career",
+        "Help me choose a career", "What career is right for me",
+        "I'm lost about my future", "Career confusion",
+        "Which career suits me", "I can't decide my career",
+        "How to find my passion", "What should I do with my life",
+        "Career guidance needed", "Not sure about my career"
+      ],
+      "responses": [
+        "It's completely normal to feel confused about career choices! Let's work through it:\n\n🧭 **Steps to Find Your Path:**\n\n1. **Self-Reflection** – Ask yourself:\n   • What activities make me lose track of time?\n   • What subjects/topics fascinate me?\n   • What are my natural strengths?\n\n2. **Explore Options** – Don't limit yourself:\n   • Take career assessment tests (MBTI, Holland Code)\n   • Talk to professionals in different fields\n   • Try internships or volunteering in various domains\n\n3. **Eliminate** – Sometimes knowing what you DON'T want is equally valuable\n\n4. **Experiment** – Take online courses in interesting fields before committing\n\n5. **Seek Guidance** – Talk to mentors, career counselors, or professionals\n\n💡 **Remember:**\n• There's no single 'perfect' career\n• It's okay to change direction later\n• Your first job won't define your entire career\n• Focus on building skills, not just choosing a title\n\nTell me about your interests and strengths – I can suggest some career paths!"
+      ]
+    },
+    {
+      "tag": "bot_info",
+      "patterns": [
+        "What can you do", "Who are you", "What is this bot",
+        "How can you help me", "What are your capabilities",
+        "Tell me about yourself", "What do you offer",
+        "What is career guidance bot", "How does this work",
+        "What topics can you help with"
+      ],
+      "responses": [
+        "I'm your **Career Guidance AI Chatbot**! 🤖\n\nHere's how I can help you:\n\n🎯 **Career Exploration** – Learn about careers in IT, Medicine, Engineering, Business, Arts & more\n📝 **Resume Tips** – Get advice on building a strong resume\n🎤 **Interview Prep** – Tips to ace your interviews\n📚 **Education Guidance** – Advice on courses, degrees & certifications\n💡 **Skill Development** – Know which skills to learn for your career\n🔄 **Career Switching** – Guidance on transitioning to a new field\n💰 **Salary Info** – Understand pay scales & negotiation\n🏠 **Freelancing** – Tips on starting a freelance career\n\nJust type your question and I'll do my best to help! What would you like to know?"
+      ]
+    }
+  ]
+}
+
 
